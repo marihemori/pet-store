@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+table {
+    width: 400px;
+
+}
+
+th, caption{
+    text-align: left;
+}
+
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
