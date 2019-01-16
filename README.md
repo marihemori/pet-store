@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Sobre
+
+Umá página simples em ReactJs, ela chama um serviço Rest que retorna um Json.
+
 ## Instalação
 
 Necessita possuir o [npm](https://www.npmjs.com/) e o [node](https://nodejs.org/en/) mais recente. 
