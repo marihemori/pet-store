@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'; //importando o react
 
-import "./index.css";
+import "./index.css"; //importando o css
   
   class App extends Component {
   
       constructor(props) {
-          super(props);
+          super(props); //executar o construtor da classe pai
           this.state = {
               items: [],
               isLoaded: false,
@@ -14,7 +14,7 @@ import "./index.css";
   
       componentDidMount() {
           fetch('https://uamytlt3b0.execute-api.us-west-2.amazonaws.com/petstore/pets')
-              .then(res => res.json())
+              .then(res => res.json()) //converter para json
               .then(json => {
                   this.setState({
                       isLoaded: true,
@@ -37,7 +37,7 @@ import "./index.css";
           }
       }
   
-      render() {
+      render() { //metodo
   
           var {isLoaded} = this.state;
   
