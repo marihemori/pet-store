@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sobre
 
-Umá página simples em ReactJs, ela chama um serviço Rest que retorna um Json.
+Uma página simples em ReactJs, ela chama um serviço Rest que retorna um Json.
 
 ## Instalação
 
